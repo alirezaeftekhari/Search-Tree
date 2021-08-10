@@ -9,7 +9,10 @@ class Bing extends SearchEngine {
                 $a = $li->first_child()->first_child();
                 $span = $a->first_child();
                 if(!empty($span->innertext) and !empty($a->getAttribute('href'))) {
-                    array_push($this->probeLinks, [$span->innertext, urldecode($a->getAttribute('href'))]);
+                    array_push($this->probeLinks, [
+                        'text' => $span->innertext,
+                        'href' => urldecode($a->getAttribute('href'))
+                    ]);
                 }
             }
         }

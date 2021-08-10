@@ -13,8 +13,10 @@ class Google extends SearchEngine {
                 foreach($div->find('h3') as $h3) {
                     if($h3->class === 'zBAuLc' and !empty($h3->parent()->getAttribute('href'))
                         and !empty($h3->first_child ()->innertext)) {
-                        array_push($this->probeLinks, [$h3->first_child ()->innertext,
-                            $this->urlParser($h3->parent()->getAttribute('href'))]);
+                        array_push($this->probeLinks, [
+                            'text' => $h3->first_child ()->innertext,
+                            'href' => $this->urlParser($h3->parent()->getAttribute('href'))
+                        ]);
                     }
                 }
             }
