@@ -3,8 +3,9 @@ require_once __DIR__.'/Models/SearchEngines/Google.php';
 require_once __DIR__.'/Models/SearchEngines/Yahoo.php';
 require_once __DIR__.'/Models/SearchEngines/Bing.php';
 require_once __DIR__.'/Models/Comparison.php';
+require_once __DIR__.'/Models/Suggestions.php';
 
-$keyword = "Nas";
+$keyword = "cristiano ronaldo";
 
 $g = new Google($keyword);
 $y = new Yahoo($keyword);
@@ -14,8 +15,11 @@ $glinks = $g->getLinks();
 $ylinks = $y->getLinks();
 $blinks = $b->getLinks();
 
-new Comparison($glinks, $ylinks, $blinks);
+$Comparison = new Comparison($glinks, $ylinks, $blinks);
+$Suggestions = new Suggestions($glinks, $ylinks, $blinks);
 
+echo 'Suggestions'.PHP_EOL;
+print_r($Suggestions->getSuggestions());
 echo 'Google'.PHP_EOL;
 print_r($glinks);
 echo 'Yahoo'.PHP_EOL;
