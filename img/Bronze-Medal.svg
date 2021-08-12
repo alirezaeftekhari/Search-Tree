@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!-- ClipArt by Arvin61r58 (http://openclipart.org/user-detail/Arvin61r58) -->
+<svg id="svg5775" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="603.76" viewBox="0 0 411.57044 603.76472" width="411.57" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title6421">Bronze Medal</title>
+ <defs id="defs5777">
+  <linearGradient id="linearGradient4261" x1="359.38" xlink:href="#linearGradient4800" gradientUnits="userSpaceOnUse" x2="216.21" gradientTransform="matrix(1.1494 0 0 1.1494 -101.1 -335.28)" y1="579.98" y2="325.72"/>
+  <linearGradient id="linearGradient4269" x1="143.61" xlink:href="#linearGradient4800" gradientUnits="userSpaceOnUse" x2="372.45" gradientTransform="matrix(1.1494 0 0 1.1494 -101.1 -335.28)" y1="384.78" y2="567.5"/>
+  <linearGradient id="linearGradient4253" x1="190.05" xlink:href="#linearGradient4800" gradientUnits="userSpaceOnUse" x2="341.58" gradientTransform="matrix(1.1494 0 0 1.1494 -101.1 -335.28)" y1="391.07" y2="526.51"/>
+  <linearGradient id="linearGradient4800">
+   <stop id="stop4802" stop-color="#96754b" offset="0"/>
+   <stop id="stop4804" stop-color="#9c7b51" offset=".071429"/>
+   <stop id="stop4806" stop-color="#d0b185" offset=".14286"/>
+   <stop id="stop4808" stop-color="#c7a97c" offset=".21429"/>
+   <stop id="stop4810" stop-color="#c3a779" offset=".28571"/>
+   <stop id="stop4812" stop-color="#b3986b" offset=".35714"/>
+   <stop id="stop4814" stop-color="#b6996e" offset=".42857"/>
+   <stop id="stop4816" stop-color="#bc9d73" offset=".5"/>
+   <stop id="stop4818" stop-color="#a08259" offset=".57143"/>
+   <stop id="stop4820" stop-color="#ab8b62" offset=".64286"/>
+   <stop id="stop4822" stop-color="#ac8b64" offset=".71429"/>
+   <stop id="stop4824" stop-color="#bc9b74" offset=".78571"/>
+   <stop id="stop4826" stop-color="#ad8e66" offset=".85714"/>
+   <stop id="stop4828" stop-color="#8e7049" offset=".92857"/>
+   <stop id="stop4830" stop-color="#8c6e47" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata5780">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Bronze Medal</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Arvin61r58</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Openclipart.org</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:identifier>https://openclipart.org/</dc:identifier>
+    <dc:source>https://openclipart.org/user-detail/Arvin61r58</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>award</rdf:li>
+      <rdf:li>ribbon</rdf:li>
+      <rdf:li>medal</rdf:li>
+      <rdf:li>bronze</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:description>bronze medal with ribbons</dc:description>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="g4864">
+  <title id="title4876">Bronze Medal  --  by Arvin61r58</title>
+  <g id="g4856">
+   <g id="g5269" transform="matrix(.86603 .5 -.79268 1.373 542.64 -427.22)">
+    <path id="rect5260" d="m27.29 490.45v205l47.5-53.97 47.5 53.97v-205h-95z" fill-rule="evenodd" fill="#f30000"/>
+    <path id="path5267" d="m32.04 496.75v184.5l42.75-48.573 42.75 48.573v-184.5h-85.5z" stroke="#b20000" stroke-width=".79421" fill="none"/>
+   </g>
+   <g id="g5281" transform="matrix(.86603 -.5 .79268 1.373 -358.83 -328.08)">
+    <path id="path5275" d="m124.52 508.13v205l47.5-53.97 47.5 53.97v-205h-95z" fill-rule="evenodd" fill="#4141f3"/>
+    <path id="path5277" d="m129.27 514.43v184.5l42.75-48.573 42.75 48.573v-184.5h-85.5z" stroke="#0000b2" stroke-width=".79421" fill="none"/>
+   </g>
+  </g>
+  <g id="g4852" stroke-linecap="round">
+   <path id="path4149" d="m376.59 190.01-43.755-16.711 37.954-27.467-46.599-4.8508 29.52-36.374-46.285 7.435l19.19-42.803-42.8 19.187 7.37-46.285-36.37 29.524-4.8-46.603-27.46 37.956-16.76-43.806-16.72 43.806-27.46-37.956-4.85 46.603-36.37-29.524 7.4316 46.285-42.806-19.187 19.19 42.806-46.285-7.435 29.52 36.374-46.599 4.8508 37.955 27.467-43.809 16.711 43.809 16.762-37.955 27.466 46.599 4.7967-29.52 36.374 46.285-7.381-19.19 42.806 42.806-19.187-7.4316 46.285 36.374-29.523 4.8474 46.604 27.466-37.955 16.711 43.752 16.765-43.752 27.463 37.955 4.7968-46.604 36.374 29.523-7.3775-46.285 42.806 19.187-19.19-42.806 46.285 7.381-29.52-36.374 46.599-4.7967-37.954-27.466z" stroke="url(#linearGradient4269)" stroke-miterlimit="8" stroke-width="3" fill="url(#linearGradient4261)"/>
+   <circle id="path4161" stroke-linejoin="round" stroke-width="2" stroke="url(#linearGradient4253)" cy="190.01" cx="205.79" stroke-dasharray="2.00000849, 6.00002549" r="116.66" fill="none"/>
+  </g>
+ </g>
+</svg>
