@@ -150,6 +150,10 @@ input[type="submit"] {
   width: 35px;
 }
 
+.td-score {
+  word-break: keep-all;
+}
+
 td a {
   display: inline-block;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -186,7 +190,7 @@ td a:hover {
 }
 
 .th-rank {
-  width: 50px;
+  width: 90px;
   background-image: url("../img/gold-cup.svg");
   background-size: 30px;
 }
@@ -194,7 +198,7 @@ td a:hover {
 .th-score {
   background-image: url("../img/star.svg");
   background-size: 35px;
-  width: 50px;
+  width: 70px;
 }
 
 .th-links {

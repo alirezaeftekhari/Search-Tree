@@ -1,7 +1,7 @@
 <?php
 //check keyword not set  and redircet to index.html
 if(!isset($_POST['keyword'])) {
-    header('Location: index.html');
+    header('Location: index.php');
 }
 
 //dependencies
@@ -37,7 +37,7 @@ $Suggestions = new Suggestions($glinks, $ylinks, $blinks);
   <body>
     <div class="search-box">
       <form method="post" action="result.php">
-        <input name="keyword" type="text" class="search-bar" value="<?php echo $keyword;?>" />
+        <input type="text" name="keyword" class="search-bar" value="<?php echo $keyword;?>" />
         <input type="submit" value="" />
         <!-- <img src="./img/search.svg" alt="search" class="search-icon" /> -->
       </form>
@@ -72,7 +72,7 @@ $Suggestions = new Suggestions($glinks, $ylinks, $blinks);
                 echo <<< lable
                     <tr>
                         <td>$rank</td>
-                        <td>$score</td>
+                        <td class="td-score">$score</td>
                         <td>$googleRank</td>
                         <td>$bingRank</td>
                         <td>$yahooRank</td>

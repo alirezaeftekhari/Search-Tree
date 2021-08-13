@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__.'/SearchEngine.php';
 class Bing extends SearchEngine {
-    protected string $staticUrl = "https://www.bing.com/search?q={{keyword}}&qs=HS&sk=HS1&sc=3-0&cvid=B965C5A4317C437B8C30324693B940C7&FORM=QBLH&sp=2";
+    protected string $staticUrl = "https://www.bing.com/search?q={{keyword}}&qs=HS&sk=PRES1&sc=5-0&cvid=E323594EE0D7486BAFF8C772BA938569&FORM=QBLH&sp=1";
 
     public function parse() {
         foreach($this->html->find('li') as $li) {
