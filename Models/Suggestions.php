@@ -1,6 +1,6 @@
 <?php
 class Suggestions {
-    private float $googleScore = 92.54;
+    private float $googleScore = 91.54;
     private float $bingScore = 2.44;
     private float $yahooScore = 1.64;
 
