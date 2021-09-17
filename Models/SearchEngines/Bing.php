@@ -3,7 +3,7 @@ require_once __DIR__ . '/SearchEngine.php';
 
 class Bing extends SearchEngine
 {
-    protected string $staticUrl = "https://www.bing.com/search?q={{keyword}}&qs=HS&sk=PRES1&sc=5-0&cvid=E323594EE0D7486BAFF8C772BA938569&FORM=QBLH&sp=1";
+    protected string $staticUrl = "https://www.bing.com/search?q={{keyword}}&form=QBLH&sp=-1&pq=expressjs&sc=8-9&qs=n&sk=&cvid=3600B1794DBE4073B772AFFC6E4D5AD5";
 
     public function parse()
     {
