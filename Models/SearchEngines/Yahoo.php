@@ -5,7 +5,7 @@ class Yahoo extends SearchEngine {
 
     public function parse() {
         foreach($this->html->find('a') as $a) {
-            if ($a->class === 'ac-algo fz-l ac-21th lh-24' and !empty($a->innertext)
+            if ($a->class === 'ls-05 fz-20 lh-26 td-hu' and !empty($a->innertext)
                 and !empty($a->getAttribute('href'))) {
                 array_push($this->probeLinks, [
                     'text' => $a->innertext,
